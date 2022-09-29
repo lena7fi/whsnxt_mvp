@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '10.0'
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
+target 'ReactNativeStarter' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  # use_frameworks!
+
+  config = use_native_modules!
+  use_react_native!(:path => config["reactNativePath"])
+
+  use_native_modules!
+  pod 'react-native-image-picker', :path => '../node_modules/react-native-image-picker'
+
+  pod 'RNVisaCheckout', :path => '../node_modules/react-native-visa-checkout'
+
+  pod 'RNAudioRecord', :path => '../node_modules/react-native-audio-record'
+
+end
+

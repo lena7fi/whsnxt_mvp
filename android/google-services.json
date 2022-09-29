@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "985835980775",
+    "project_id": "whsnxt-4803e",
+    "storage_bucket": "whsnxt-4803e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985835980775:android:90792c6367ae398e739f42",
+        "android_client_info": {
+          "package_name": "com.whosnextllc.whsnxt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985835980775-4d7h90edt63ko6kjnnvv1cto31vb5sfg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0ljSdkpJUaqCnnJQspIJWlYAS7ud1fyA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985835980775-4d7h90edt63ko6kjnnvv1cto31vb5sfg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
